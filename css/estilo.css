@@ -1,0 +1,803 @@
+/*--------------------Inicio (TAG)--------------------*/
+
+h5
+{
+    color: white;
+    text-shadow: 0 3px 6px black;
+}
+p
+{
+    margin-top: 5%;
+}
+
+footer
+{
+  background-color: gray;
+  text-align: center;
+  padding: 0.5%;
+  color: white;
+  text-shadow: 2px 2px 4px black; 
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid black;
+  border-radius: 50px;
+  transition: 0.5s;
+  outline: none;
+  box-shadow: 0 3px 6px gray;
+}
+
+input[type=text]:focus {
+  border: 3px solid blue;
+}
+
+label
+{
+  
+}
+
+iframe
+{
+  border-radius: 5px;
+  box-shadow: 0 3px 6px black;
+  margin: 2%;
+}
+/*--------------------Fim (TAG)--------------------*/
+
+/*--------------------Inicio (Class)--------------------*/
+
+.navbar-custom
+{
+    background-color: rgb(22, 22, 39);
+    box-shadow: 0 3px 6px black;
+}
+.navbar-toggler
+{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 3px 6px black;
+}
+
+.navbar-toggler:active
+{
+    background-color: rgb(39, 39, 39);
+    box-shadow: 0 3px 6px black;
+}
+.nav-link
+{
+    text-align: center;
+}
+.nav-link:hover
+{
+    background-color: rgb(3, 2, 56);
+    border-radius: 10px;
+    text-shadow: 0 3px 6px black;
+}
+.nav-link:hover:active
+{
+    background-color: rgb(14, 28, 151);
+}
+.name
+{
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+/*--------------------Fim (Class)--------------------*/
+
+/*--------------------Inicio (id)--------------------*/
+
+#logoNav
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 3px 6px black;
+    border-radius: 50px;
+    color: black;
+}
+
+#logoEquipe
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    box-shadow: 0px 3px 6px black;
+    border-radius: 50px;
+    color: black;
+}
+
+#sobreEquipe 
+{
+    text-align: center;
+    margin-top: 5%;
+    text-shadow: 2px 2px 4px black;
+    color: black;
+}
+#fundoLogo
+{
+    background-image: url(https://i.pinimg.com/originals/71/f3/95/71f395111127ea7c1ff6b63c7fad5899.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+#nossaEquipe
+{
+  background-image: url(https://i.pinimg.com/originals/71/f3/95/71f395111127ea7c1ff6b63c7fad5899.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px black;
+}
+#missao, #visao, #valores
+{
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: black;
+    
+}
+#teamX
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  box-shadow: 0px 3px 6px black;
+  border-radius: 50px;
+  color: black;
+}
+
+#membrosEquipe
+{
+  text-align: center;
+  text-shadow: 0 3px 6px black;
+  color: black;
+}
+
+/*Fabricio*/
+#teamFabricio
+{
+  padding: 30px 0 40px;
+  margin-top: 10%;
+  margin-bottom: 30px;
+  background-color: rgb(30, 27, 44);
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 3px 6px black;
+  border-radius: 10%;
+}
+
+#teamFabricio #picFabricio
+{
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+#teamFabricio #picFabricio::before
+{
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: blue;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+#teamFabricio:hover #picFabricio::before
+{
+  height: 100%;
+}
+
+#teamFabricio #picFabricio::after
+{
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#teamFabricio #picFabricio img
+{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+
+#teamFabricio:hover #picFabricio img {
+  box-shadow: 0 0 0 10px white;
+  transform: scale(0.7);
+}
+
+#teamFabricio .title
+{
+  display: block;
+  font-size: 15px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  text-transform: capitalize;
+}
+
+#teamFabricio .social
+{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: blue;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+
+#teamFabricio:hover .social
+{
+  bottom: 0;
+}
+
+#teamFabricio .social li
+{
+  display: inline-block;
+}
+
+#teamFabricio .social li a
+{
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+#teamFabricio .social li a:hover
+{
+  color: blue;
+  background-color: white;
+  text-shadow: 1px 1px 2px black;
+}
+/*Fabricio*/
+
+/*Max*/
+#teamMax
+{
+  padding: 30px 0 40px;
+  margin-top: 10%;
+  margin-bottom: 30px;
+  background-color: rgb(39, 9, 9);
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 3px 6px black;
+  border-radius: 10%;
+}
+
+#teamMax #picMax
+{
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+#teamMax #picMax::before
+{
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+#teamMax:hover #picMax::before
+{
+  height: 100%;
+}
+
+#teamMax #picMax::after
+{
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#teamMax #picMax img
+{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+
+#teamMax:hover #picMax img
+{
+  box-shadow: 0 0 0 10px white;
+  transform: scale(0.7);
+}
+
+#teamMax .title
+{
+  display: block;
+  font-size: 15px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  text-transform: capitalize;
+}
+
+#teamMax .social
+{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: red;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+
+#teamMax:hover .social
+{
+  bottom: 0;
+}
+
+#teamMax .social li
+{
+  display: inline-block;
+}
+
+#teamMax .social li a
+{
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+#teamMax .social li a:hover
+{
+  color:  red;
+  background-color: white;
+  text-shadow: 1px 1px 2px black;
+}
+/*Max*/
+
+/*Igor*/
+#teamIgor
+{
+  padding: 30px 0 40px;
+  margin-top: 10%;
+  margin-bottom: 30px;
+  background-color: rgb(12, 39, 9);
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 3px 6px black;
+  border-radius: 10%;
+}
+
+#teamIgor #picIgor
+{
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+#teamIgor #picIgor::before
+{
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: green;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+#teamIgor:hover #picIgor::before
+{
+  height: 100%;
+}
+
+#teamIgor #picIgor::after
+{
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: green;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#teamIgor #picIgor img
+{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+#teamIgor:hover #picIgor img
+{
+  box-shadow: 0 0 0 10px white;
+  transform: scale(0.7);
+}
+
+#teamIgor .title
+{
+  display: block;
+  font-size: 15px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  text-transform: capitalize;
+}
+
+#teamIgor .social
+{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: green;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+
+#teamIgor:hover .social
+{
+  bottom: 0;
+}
+
+#teamIgor .social li
+{
+  display: inline-block;
+}
+
+#teamIgor .social li a
+{
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+#teamIgor .social li a:hover
+{
+  color: green;
+  background-color: white;
+  text-shadow: 1px 1px 2px black;
+  transition: all 0.9s ease 0s;
+}
+/*Igor*/
+
+/*Gessielle*/
+#teamGessielle
+{
+  padding: 30px 0 40px;
+  margin-top: 10%;
+  margin-bottom: 30px;
+  background-color: rgb(39, 39, 9);
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 3px 6px black;
+  border-radius: 10%;
+}
+#teamGessielle #picGessielle
+{
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+#teamGessielle #picGessielle::before
+{
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: rgb(209, 196, 17);
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+#teamGessielle:hover #picGessielle::before
+{
+  height: 100%;
+}
+
+#teamGessielle #picGessielle::after
+{
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgb(209, 196, 17);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#teamGessielle #picGessielle img
+{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+#teamGessielle:hover #picGessielle img
+{
+  box-shadow: 0 0 0 10px white;
+  transform: scale(0.7);
+}
+
+#teamGessielle .title
+{
+  display: block;
+  font-size: 15px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  text-transform: capitalize;
+}
+
+#teamGessielle .social
+{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color:rgb(209, 196, 17);
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+
+#teamGessielle:hover .social
+{
+  bottom: 0;
+}
+
+#teamGessielle .social li
+{
+  display: inline-block;
+}
+
+#teamGessielle .social li a
+{
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+#teamGessielle .social li a:hover
+{
+  color: rgb(209, 196, 17);
+  background-color: white;
+  text-shadow: 1px 1px 2px black;
+  transition: all 0.9s ease 0s;
+}
+/*Gessielle*/
+
+/*Kelly*/
+#teamKelly
+{
+  padding: 30px 0 40px;
+  margin-top: 10%;
+  margin-bottom: 30px;
+  background-color: rgb(39, 9, 35);
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 3px 6px black;
+  border-radius: 10%;
+}
+#teamKelly #picKelly
+{
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+#teamKelly #picKelly::before
+{
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color:  rgb(180, 0, 84);
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+#teamKelly:hover #picKelly::before
+{
+  height: 100%;
+}
+
+#teamKelly #picKelly::after
+{
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color:  rgb(180, 0, 84);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#teamKelly #picKelly img
+{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+#teamKelly:hover #picKelly img
+{
+  box-shadow: 0 0 0 10px white;
+  transform: scale(0.7);
+}
+
+#teamKelly .title
+{
+  display: block;
+  font-size: 15px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  text-transform: capitalize;
+}
+
+#teamKelly .social
+{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(180, 0, 84);
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+
+#teamKelly:hover .social
+{
+  bottom: 0;
+}
+
+#teamKelly .social li
+{
+  display: inline-block;
+}
+
+#teamKelly .social li a
+{
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+#teamKelly .social li a:hover
+{
+  color: rgb(180, 0, 84);
+  background-color: white;
+  text-shadow: 1px 1px 2px black;
+  transition: all 0.9s ease 0s;
+}
+/*Kelly*/
+
+#nossoProject
+{
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+}
+
+#imgProjetos
+{
+  border-radius: 4vh;
+  box-shadow: 0 6px 12px black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+#textProjetos
+{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#Contato
+{
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+}
+/*--------------------Fim (id)--------------------*/

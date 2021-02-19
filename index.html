@@ -1,11 +1,333 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio</title>
+
+    <!--------------------Inicio(CSS)-------------------->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <!--------------------Fim(CSS)-------------------->
+    
+    <!--------------------Inicio(JavaScript)-------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--------------------Fim(JavaScript)-------------------->
 </head>
 <body>
+    <!--------------------Inicio(NavBar)-------------------->
+    <nav class="navbar navbar-expand-md navbar-custom navbar-dark">
+        <a class="navbar-brand">
+            <img src="img/logoNav.png" alt="" id="logonNav">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span><i class="fas fa-chevron-circle-down"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <h5>Inicio</h5>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <h5>Quem Somos</h5>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <h5>Nossos Projetos</h5>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <h5>Contato</h5>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--------------------Fim(NavBar)-------------------->
+
+    <!--------------------Inicio(Logo da Equipe)-------------------->
+    <div class="container" id="fundoLogo">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="img/logo.png" alt="" id="logoEquipe">
+            </div>
+        </div>
+    </div>
+    <!--------------------Fim(Logo da Equipe)-------------------->
+
+    <!--------------------Inicio(Objetivos)-------------------->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3 class="display-4" id="missao">Missão</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Vitae itaque sapiente voluptas distinctio veniam neque illum ipsam optio reiciendis,
+                quibusdam assumenda, dolorum dolores ad sed quas. Asperiores exercitationem ad tempore.</p>
+            </div>
+
+            <div class="col-md-4">
+                <h3 class="display-4" id="visao">Visão</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quae iure minima cum voluptatum doloremque, quas quo mollitia aspernatur consequuntur dignissimos neque tenetur sunt molestias pariatur sed laborum a officia.</p>
+            </div>
+
+            <div class="col-md-4">
+                <h3 class="display-4" id="valores">Valores</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, autem? Assumenda quibusdam, voluptates in nobis explicabo maxime omnis consectetur sapiente labore consequuntur inventore minus error amet laboriosam ipsa facilis sit.</p>
+            </div>
+        </div>
+    </div>
+    <!--------------------Fim(Objetivos)-------------------->
+
+    <!--------------------Inicio(Quem Somos)-------------------->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+              <h1 class="display-3" id="sobreEquipe">Quem Somos</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Perspiciatis quis, aliquam nostrum sint sit pariatur nobis molestiae minus quibusdam asperiores, 
+              natus officia! In nisi repudiandae eaque temporibus, maxime labore eveniet.</p>
+          </div>
+          <div class="col-md-6">
+              <img src="img/logo.png" alt="" id="teamX">
+          </div>
+        </div>
+      </div>
+
+    <div class="container" id="nossaEquipe">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="display-4" id="membrosEquipe">Membros da Equipe</h1>
+        </div>
+      </div>
+    <!--------------------Inicio(Fabricio)-------------------->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="our-team" id="teamFabricio">
+
+            <div class="picture" id="picFabricio">
+              <img class="img-fluid" src="img/fabricio.jpeg" alt="">
+            </div>
+            
+            <div class="team-content">
+              <h3 class="name">Fabricio Carvalho</h3>
+              <h4 class="title" id="titleFab">Analista & DBA</h4>
+            </div>
+
+            <ul class="social">
+              <li>
+                <a class="fab fa-facebook" href="https://www.facebook.com/profile.php?id=100051553818003" aria-hidden="true" target="blank"> Facebook</a>
+              </li>
+              
+              <li>
+                <a class="fab fa-whatsapp" href="https://api.whatsapp.com/send?phone=5513991798704&text=Oi%20Fabricio%2C%20tudo%20bem%3F" aria-hidden="true" target="blank"> WhatsApp</a>
+              </li>
+              
+              <li>
+                <a class="fab fa-github" href="https://github.com/OliveiraFab16" aria-hidden="true" target="blank"> Github</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+    <!--------------------Fim(Fabricio)-------------------->
+
+    <!--------------------Inicio(Max)-------------------->
+        <div class="col-md-4">
+          <div class="our-team" id="teamMax">
+
+            <div class="picture" id="picMax">
+              <img class="img-fluid" src="img/max.jpg" alt="">
+            </div>
+            
+            <div class="team-content">
+              <h3 class="name">Max Leonel</h3>
+              <h4 class="title" id="titleMax">Programador & Designer</h4>
+            </div>
+
+            <ul class="social">
+              <li>
+                <a class="fab fa-facebook" href="https://www.facebook.com/mwleonel22" aria-hidden="true" target="blank"> Facebook</a>
+              </li>
+              
+              <li>
+                <a class="fab fa-whatsapp" href="https://api.whatsapp.com/send?phone=5513991925125&text=Oi%20Max%2C%20tudo%20bem%3FF" aria-hidden="true" target="blank"> WhatsApp</a>
+              </li>
+              
+              <li>
+                <a class="fab fa-github" href="https://github.com/MWLeonel" aria-hidden="true" target="blank"> Github</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+    <!--------------------Fim(Max)-------------------->
+
+    <!--------------------Inicio(Igor)-------------------->
+        <div class="col-md-4">
+          <div class="our-team" id="teamIgor">
+
+            <div class="picture" id="picIgor">
+              <img class="img-fluid" src="img/igor.jpg" alt="">
+            </div>
+            
+            <div class="team-content">
+              <h3 class="name">Igor Matos</h3>
+              <h4 class="title" id="titleMax">Programador & DBA</h4>
+            </div>
+
+            <ul class="social">
+              <li>
+                <a class="fab fa-facebook" href="https://www.facebook.com/igormwave" aria-hidden="true" target="blank"> Facebook</a>
+              </li>
+              
+              <li>
+                <a class="fab fa-whatsapp" href="https://api.whatsapp.com/send?phone=5511933865687&text=Oi%20Igor%2C%20tudo%20bem%3F" aria-hidden="true" target="blank"> WhatsApp</a>
+              </li>
+              
+              <li>
+                <a class="fab fa-github" href="https://github.com/IgorPR0" aria-hidden="true" target="blank"> Github</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+    <!--------------------Fim(Igor)-------------------->
+
+    <!--------------------Inicio(Gessielle)-------------------->
+        <div class="col-md-6">
+          <div class="our-team" id="teamGessielle">
+
+            <div class="picture" id="picGessielle">
+              <img class="img-fluid" src="img/gessielle.jpg" alt="">
+            </div>
+            
+            <div class="team-content">
+              <h3 class="name">Gessielle Barossi</h3>
+              <h4 class="title" id="titleMax">Analista & DBA</h4>
+            </div>
+
+            <ul class="social">
+              <li>
+                <a class="fab fa-facebook" href="https://www.facebook.com/Gessielle" aria-hidden="true" target="blank"> Facebook</a>
+              </li>
+              
+              <li>
+                <a class="fab fa-whatsapp" href="https://api.whatsapp.com/send?phone=5513991052082&text=Oi%20Gessielle%2C%20tudo%20bem%3F" aria-hidden="true" target="blank"> WhatsApp</a>
+              </li>
+              
+              <li>
+                <a class="fab fa-github" href="https://github.com/Gessielle" aria-hidden="true" target="blank"> Github</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+    <!--------------------Fim(Gessielle)-------------------->
+
+    <!--------------------Inicio(Kelly)-------------------->
+        <div class="col-md-6">
+          <div class="our-team" id="teamKelly">
+
+            <div class="picture" id="picKelly">
+              <img class="img-fluid" src="img/kelly.jpg" alt="">
+            </div>
+            
+            <div class="team-content">
+              <h3 class="name">Kelly Cristina</h3>
+              <h4 class="title" id="titleMax">Designer</h4>
+            </div>
+
+            <ul class="social">
+              <li>
+                <a class="fab fa-facebook" href="https://www.facebook.com/kelly.cristinaaires.77" aria-hidden="true" target="blank"> Facebook</a>
+              </li>
+              
+              <li>
+                <a class="fab fa-whatsapp" href="https://api.whatsapp.com/send?phone=5513996106311&text=Oi%20Kelly%2C%20tudo%20bem%3F" aria-hidden="true" target="blank"> WhatsApp</a>
+              </li>
+              
+              <li>
+                <a class="fab fa-github" href="https://github.com/KellyCristinaAires" aria-hidden="true" target="blank"> Github</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    <!--------------------Fim(Kelly)-------------------->
+    </div>
+    <!--------------------Fim(Quem Somos)-------------------->
     
+    <!--------------------Inicio(Nossos Projetos)-------------------->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <h1 class="display-3" id="nossoProject">Nossos Projetos</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img class="img-fluid" src="https://worktechnology.com.br/wp-content/uploads/2018/11/work-731198_1920-1920x1080.jpg" alt="" id="imgProjetos">
+        </div>
+        <div class="col-md-6">
+          <p id="textProjetos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem consequatur itaque modi, ducimus facere, doloribus doloremque explicabo autem natus dolores voluptas perferendis minima? Aut inventore nulla eaque maxime, placeat accusantium?
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni aperiam quod, laudantium iusto nesciunt unde eligendi nobis cum libero illo aut natus, voluptate, fugit accusamus molestiae veniam dolores? Neque, tenetur.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime officia corporis, dolorem ea, incidunt aut amet est magnam sunt quam rem. Vel distinctio fuga, sint quasi incidunt pariatur molestias architecto.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--------------------Fim(Nossos Projetos)-------------------->
+
+    <!--------------------Inicio(Contato)-------------------->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="display-3" id="Contato">Contato</h1>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <label for="nome">Digite seu Nome: </label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="nome">Digite seu Email: </label>
+            <input type="text" id="nome" name="nome">
+            
+            <label for="nome">Assunto: </label>
+            <input type="text" id="nome" name="nome">
+          </form>
+        </div>
+
+        <div class="col-md-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14565.630411161334!2d-46.6786027!3d-24.1223197!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6382eb95def97024!2sEtec%20Adolpho%20Berezin!5e0!3m2!1spt-BR!2sbr!4v1613647947439!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+    </div>
+    <!--------------------Fim(Contato)-------------------->
+
+    <!--------------------Inicio(Footer)-------------------->
+    <footer class="page-footer">
+      <div class="footer-copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h6>©MWLeonel - ETEC Adolpho Berezin - Mongaguá/2021</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--------------------Fim(Footer)-------------------->
 </body>
 </html>
