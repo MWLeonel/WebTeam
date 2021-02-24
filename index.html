@@ -16,6 +16,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/funcao.js"></script>
     <!--------------------Fim(JavaScript)-------------------->
 </head>
 <body>
@@ -161,7 +162,7 @@
               </li>
               
               <li>
-                <a class="fab fa-whatsapp" href="https://api.whatsapp.com/send?phone=5513991925125&text=Oi%20Max%2C%20tudo%20bem%3FF" aria-hidden="true" target="blank"> WhatsApp</a>
+                <a class="fab fa-whatsapp" href="https://api.whatsapp.com/send?phone=5513991925125&text=Oi%20Max%2C%20tudo%20bem%3F" aria-hidden="true" target="blank"> WhatsApp</a>
               </li>
               
               <li>
@@ -183,7 +184,7 @@
             
             <div class="team-content">
               <h3 class="name">Igor Matos</h3>
-              <h4 class="title" id="titleMax">Programador & DBA</h4>
+              <h4 class="title" id="titleIgor">Programador & DBA</h4>
             </div>
 
             <ul class="social">
@@ -204,36 +205,36 @@
         </div>
     <!--------------------Fim(Igor)-------------------->
 
-    <!--------------------Inicio(Gessielle)-------------------->
-        <div class="col-md-6">
-          <div class="our-team" id="teamGessielle">
+    <!--------------------Inicio(Isaac)-------------------->
+    <div class="col-md-6">
+      <div class="our-team" id="teamIsaac">
 
-            <div class="picture" id="picGessielle">
-              <img class="img-fluid" src="img/gessielle.jpg" alt="">
-            </div>
-            
-            <div class="team-content">
-              <h3 class="name">Gessielle Barossi</h3>
-              <h4 class="title" id="titleMax">Analista & DBA</h4>
-            </div>
-
-            <ul class="social">
-              <li>
-                <a class="fab fa-facebook" href="https://www.facebook.com/Gessielle" aria-hidden="true" target="blank"> Facebook</a>
-              </li>
-              
-              <li>
-                <a class="fab fa-whatsapp" href="https://api.whatsapp.com/send?phone=5513991052082&text=Oi%20Gessielle%2C%20tudo%20bem%3F" aria-hidden="true" target="blank"> WhatsApp</a>
-              </li>
-              
-              <li>
-                <a class="fab fa-github" href="https://github.com/Gessielle" aria-hidden="true" target="blank"> Github</a>
-              </li>
-            </ul>
-
-          </div>
+        <div class="picture" id="picIsaac">
+          <img class="img-fluid" src="img/isaac.jpg" alt="">
         </div>
-    <!--------------------Fim(Gessielle)-------------------->
+        
+        <div class="team-content">
+          <h3 class="name">Isaac Pugliese</h3>
+          <h4 class="title" id="titleIsaac">Analista & DBA</h4>
+        </div>
+
+        <ul class="social">
+          <li>
+            <a class="fab fa-facebook" href="https://www.facebook.com/isaac.pugliese.7" aria-hidden="true" target="blank"> Facebook</a>
+          </li>
+          
+          <li>
+            <a class="fab fa-whatsapp" href="https://api.whatsapp.com/send?phone=55139992125160&text=Oi%20Isaac%2C%20tudo%20bem%3F" aria-hidden="true" target="blank"> WhatsApp</a>
+          </li>
+          
+          <li>
+            <a class="fab fa-github" href="https://github.com/isaacpugliese" aria-hidden="true" target="blank"> Github</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    <!--------------------Fim(Isaac)-------------------->
 
     <!--------------------Inicio(Kelly)-------------------->
         <div class="col-md-6">
@@ -245,7 +246,7 @@
             
             <div class="team-content">
               <h3 class="name">Kelly Cristina</h3>
-              <h4 class="title" id="titleMax">Designer</h4>
+              <h4 class="title" id="titleKelly">Designer</h4>
             </div>
 
             <ul class="social">
@@ -297,19 +298,24 @@
           <h1 class="display-3" id="Contato">Contato</h1>
         </div>
         <div class="col-md-6">
-          <form>
-            <label for="nome">Digite seu Nome: </label>
-            <input type="text" id="nome" name="nome">
-
-            <label for="nome">Digite seu Email: </label>
-            <input type="text" id="nome" name="nome">
+          <form action="https://api.staticforms.xyz/submit" method="POST">
+            <input type="hidden" name="accessKey" value="2d8705c4-bca3-4302-8385-0bec68026975">
+            <input type="hidden" name="redirectTo" value="https://bestwallpapers.in/wp-content/uploads/2018/04/quote-success-team-grey-4k-wallpaper-2048x1152.jpg">
             
-            <label for="nome">Assunto: </label>
-            <input type="text" id="nome" name="nome">
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="name" placeholder="Digite seu Nome">
+
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="email" placeholder="Digite seu Email">
+            
+            <label for="mensagem">Assunto: </label>
+            <textarea name="message"></textarea>
+
+            <button>Enviar Mensagem</button>
           </form>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-6 map-responsive">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14565.630411161334!2d-46.6786027!3d-24.1223197!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6382eb95def97024!2sEtec%20Adolpho%20Berezin!5e0!3m2!1spt-BR!2sbr!4v1613647947439!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
       </div>
