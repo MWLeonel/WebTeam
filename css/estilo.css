@@ -735,4 +735,20 @@ button:active {
   text-shadow: 2px 2px 4px black;
   margin-top: 2%;
 }
+
+#tituloProject1
+{
+  text-shadow: 0 3px 4px black;
+  text-align: center;
+}
+
+#project1
+{
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  box-shadow: 6px 6px 6px black;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
 /*--------------------Fim (id)--------------------*/
