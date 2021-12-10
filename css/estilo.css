@@ -725,8 +725,9 @@ button:active {
 }
 #textProjetos
 {
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 120%;
 }
 
 #Contato
@@ -756,5 +757,12 @@ button:active {
 {
   font-size: 150%;
   margin-bottom: 5%;
+}
+
+#textproject1
+{
+  font-size: 150%;
+  margin-bottom: 5%;
+  text-align: justify;
 }
 /*--------------------Fim (id)--------------------*/
